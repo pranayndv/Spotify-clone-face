@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li class = "brand"><img  src="logo.png" alt="Spotify"> Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+    </ul>
+</nav>
+
+<div class="container">
+    <div class="songList">
+        <h1>Justin Bieber : Top hits </h1>
+        <div>
+
+            <div class="songItemContainer">
+
+            <div class="songItem">
+                <img src="cover1.jpg" alt="justin bieber">
+                <span class ="songName">Boyfriend</span>
+                <span class="songListPlay"><span class = "timeStamp">2:52 <i id = "0"class="fa-solid songItemPlay fa-play-circle" style="color: #000000;"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img src="cover1.jpg" alt="justin bieber">
+                <span class ="songName">Boyfriend</span>
+                <span class="songListPlay"><span class = "timeStamp">2:52 <i id = "1"class="fa-solid songItemPlay fa-play-circle" style="color: #000000;"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img src="cover1.jpg" alt="justin bieber">
+                <span class ="songName">Boyfriend</span>
+                <span class="songListPlay"><span class = "timeStamp">2:52 <i id = "2"class="fa-solid songItemPlay fa-play-circle" style="color: #000000;"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img src="cover1.jpg" alt="justin bieber">
+                <span class ="songName">Boyfriend</span>
+                <span class="songListPlay"><span class = "timeStamp">2:52 <i id = "3"class="fa-solid songItemPlay fa-play-circle" style="color: #000000;"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img src="cover1.jpg" alt="justin bieber">
+                <span class ="songName">Boyfriend</span>
+                <span class="songListPlay"><span class = "timeStamp">2:52 <i id = "4"class="fa-solid songItemPlay fa-play-circle" style="color: #000000;"></i></span></i></span>
+            </div>
+        </div>
+        </div>
+   </div>
+   <div class="songbanner"></div>
+
+</div>
+<div class="bottom">
+<input type="range" name="range" class="progressColor" id="myProgresBar" min = "0" value = '0'max = "100">
+<div class="icons">
+    <i class="fa-solid  fa-3x fa-step-backward" id = "previous" style="color: #ffff;"></i>
+    <i class="fa-solid  fa-3x fa-play-circle" id = "masterPlay" style="color: #ffff;"></i>
+    <i class="fa-solid  fa-3x fa-step-forward"id = "next" style="color: #ffff;"></i>
+</div>
+<div class="songinfo">
+    <img src="tenor.gif" id = "gif" width ="50px" alt="Play and Pause"><span id="masterSongName">justin bieber-Boyfriend</span>
+</div>
+</div>
+
+    <script src="https://kit.fontawesome.com/7b6bb85f21.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
